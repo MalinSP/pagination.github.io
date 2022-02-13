@@ -11,7 +11,7 @@ html {
 } /*16px*/
 
 body {
-  background: #90b4ce;
+  background: #ccd1de;
   font-family: "Play", sans-serif;
   font-weight: 400;
   line-height: 1.75;
@@ -134,4 +134,12 @@ a {
   margin: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
+}
+.btn {
+  background-color: #192f69;
+  color: #ccd1de;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+  font-size: 0.875rem;
 }

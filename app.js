@@ -19,7 +19,7 @@ const fetchFollowers = async () => {
 
 const init = async () => {
   const followers = await fetchFollowers();
-  title.textContent = "pagination";
+  title.textContent = "Pagination";
   pages = paginate(followers);
   setupUI();
 };
